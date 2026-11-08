@@ -28,6 +28,10 @@
 * **deps:** bump minimatch from 10.2.5 to 11.0.5 in /docs-site ([#3190](https://github.com/IsmaelMartinez/teams-for-linux/issues/3190)) ([335b0c1](https://github.com/IsmaelMartinez/teams-for-linux/commit/335b0c14dae10cda9518fddbf5dd3310ebaf6c4a))
 * remove the finished smartcard PIN spike script ([#3200](https://github.com/IsmaelMartinez/teams-for-linux/issues/3200)) ([e630b24](https://github.com/IsmaelMartinez/teams-for-linux/commit/e630b2459908e47f31cfe35d21b2b0ae32b8e635))
 
+### Thanks
+
+Big thanks to @app/dependabot, @nikolainyegaard, @smorokin for contributing to this release.
+
 ## [2.30.0](https://github.com/IsmaelMartinez/teams-for-linux/compare/v2.29.0...v2.30.0) (2026-11-07)
 
 
