@@ -1,5 +1,33 @@
 # Changelog
 
+## [2.31.0](https://github.com/IsmaelMartinez/teams-for-linux/compare/v2.30.0...v2.31.0) (2026-11-08)
+
+
+### Features
+
+* **dbus:** add SetStatus presence control ([#3178](https://github.com/IsmaelMartinez/teams-for-linux/issues/3178)) ([5ff80b0](https://github.com/IsmaelMartinez/teams-for-linux/commit/5ff80b0b5fefb05e12ea2c9ade8300061d03d837))
+* run native wayland by default on deb, rpm and appimage ([#3129](https://github.com/IsmaelMartinez/teams-for-linux/issues/3129)) ([9b6f4eb](https://github.com/IsmaelMartinez/teams-for-linux/commit/9b6f4eb9236865e5de134f8c1bb2a2e90a7c07e4))
+
+
+### Bug Fixes
+
+* **auth:** keep msal.cache.encryption persistent on every profile session ([#3193](https://github.com/IsmaelMartinez/teams-for-linux/issues/3193)) ([fa86cf0](https://github.com/IsmaelMartinez/teams-for-linux/commit/fa86cf029432f9cf457d64891e5b0e2024396780))
+* **build:** ship the prebuilt cbor-extract instead of the runner-compiled copy ([#3194](https://github.com/IsmaelMartinez/teams-for-linux/issues/3194)) ([2247335](https://github.com/IsmaelMartinez/teams-for-linux/commit/22473359ddb316c81172d128cf5a628fe931c67f))
+
+
+### Documentation
+
+* ADR catch-up, research index retirement and documentation sweep ([#3196](https://github.com/IsmaelMartinez/teams-for-linux/issues/3196)) ([ab01116](https://github.com/IsmaelMartinez/teams-for-linux/commit/ab011161f7f0c31051f3e6a1bcced588b1c11807))
+* **adr:** mark ADR-018 superseded now the triage bot is retired ([#3191](https://github.com/IsmaelMartinez/teams-for-linux/issues/3191)) ([83e8ead](https://github.com/IsmaelMartinez/teams-for-linux/commit/83e8ead18d9aee4d1e27729cc0125322424b800a))
+* describe versions relative to the release stream instead of hard-coded numbers ([#3199](https://github.com/IsmaelMartinez/teams-for-linux/issues/3199)) ([308b6f4](https://github.com/IsmaelMartinez/teams-for-linux/commit/308b6f4ee860127cdf1b92e7933e6b4c66a1fe82))
+* move CLAUDE.md to AGENTS.md (ADR-036) ([#3197](https://github.com/IsmaelMartinez/teams-for-linux/issues/3197)) ([c4790c0](https://github.com/IsmaelMartinez/teams-for-linux/commit/c4790c02562dba7136f6dfab54a5ec6234529929))
+
+
+### Maintenance
+
+* **deps:** bump minimatch from 10.2.5 to 11.0.5 in /docs-site ([#3190](https://github.com/IsmaelMartinez/teams-for-linux/issues/3190)) ([335b0c1](https://github.com/IsmaelMartinez/teams-for-linux/commit/335b0c14dae10cda9518fddbf5dd3310ebaf6c4a))
+* remove the finished smartcard PIN spike script ([#3200](https://github.com/IsmaelMartinez/teams-for-linux/issues/3200)) ([e630b24](https://github.com/IsmaelMartinez/teams-for-linux/commit/e630b2459908e47f31cfe35d21b2b0ae32b8e635))
+
 ## [2.30.0](https://github.com/IsmaelMartinez/teams-for-linux/compare/v2.29.0...v2.30.0) (2026-11-07)
 
 
