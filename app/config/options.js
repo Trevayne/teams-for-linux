@@ -1543,9 +1543,11 @@ module.exports = {
           minimizeOnClose: false,
           alwaysOnTop: true,
           class: null,
+          showStatus: false,
+          statusPosition: "bottom-right",
         },
         describe:
-          "Main window geometry, decoration and close behaviour. Replaces the deprecated frame, menubar, minimized, closeAppOnCross, minimizeOnClose, alwaysOnTop and class options.",
+          "Main window geometry, decoration, close behaviour and icon. Replaces the deprecated frame, menubar, minimized, closeAppOnCross, minimizeOnClose, alwaysOnTop and class options.",
         type: "object",
         fields: {
           "frame": {
@@ -1581,6 +1583,15 @@ module.exports = {
           "class": {
             type: "string",
             describe: "A custom value for the WM_CLASS property",
+          },
+          "showStatus": {
+            type: "boolean",
+            describe: "Overlay the user presence status on the main window icon, which is what the taskbar or panel entry shows on Linux and Windows (ignored on macOS, see media.showStatusOnDockIcon). Some docks use the icon of the matching desktop entry instead of the window icon, and then the dot does not show",
+          },
+          "statusPosition": {
+            type: "string",
+            choices: ["bottom-right", "top-right"],
+            describe: "Corner of the window icon the presence dot is drawn in when showStatus is on. \"top-right\" matches the Windows client; \"bottom-right\" stays clear of the unread count some docks draw top-right",
           },
         },
         applyMode: "restart",
